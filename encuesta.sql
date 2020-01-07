@@ -75,8 +75,8 @@ insert into pregunta(titulo_pregunta,es_multiple) values ("¿Te gusta programar?
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has roto algun ordenador por trastearlo demas?",false);
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Cuantos años llevas jugando?",true);
-insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has tenido alguna lesion?",true);
-insert into pregunta(titulo_pregunta,es_multiple) values ("¿Te parece un deporte minoritario?", true);
+insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has tenido alguna lesion?",false);
+insert into pregunta(titulo_pregunta,es_multiple) values ("¿Te parece un deporte minoritario?", false);
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Fumas?",false);
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Con que frecuencia?",true);
