@@ -71,21 +71,60 @@ insert into encuesta(id_admin,nombre,descripcion) values (3,"salud","Realiza una
 insert into encuesta(id_admin,nombre,descripcion) values (4,"diseño","Realiza una encuesta para facilitarnos tu conocimiento a cerca del diseño web.");
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Utilizas mas Linux o Windows?",true);
+insert into respuesta(id_pregunta,respuesta) values (1,"Linux");
+insert into respuesta(id_pregunta,respuesta) values (1,"Windows");
+insert into respuesta(id_pregunta,respuesta) values (1,"Ninguna de las anteriores.");
+
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Te gusta programar?",false);
+insert into respuesta(id_pregunta,respuesta) values (2,"Si");
+insert into respuesta(id_pregunta,respuesta) values (2,"No");
+
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has roto algun ordenador por trastearlo demas?",false);
+insert into respuesta(id_pregunta,respuesta) values (3,"Si");
+insert into respuesta(id_pregunta,respuesta) values (3,"No");
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Cuantos años llevas jugando?",true);
-insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has tenido alguna lesion?",false);
+insert into respuesta(id_pregunta,respuesta) values (4,"3");
+insert into respuesta(id_pregunta,respuesta) values (4,"4");
+insert into respuesta(id_pregunta,respuesta) values (4,"5");
+insert into respuesta(id_pregunta,respuesta) values (4,"+8");
+
+insert into pregunta(titulo_pregunta,es_multiple) values ("¿Has tenido alguna lesion grave?",false);
+insert into respuesta(id_pregunta,respuesta) values (5,"Si");
+insert into respuesta(id_pregunta,respuesta) values (5,"No");
+
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Te parece un deporte minoritario?", false);
+insert into respuesta(id_pregunta,respuesta) values (6,"Si");
+insert into respuesta(id_pregunta,respuesta) values (6,"No");
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Fumas?",false);
-insert into pregunta(titulo_pregunta,es_multiple) values ("¿Con que frecuencia?",true);
+insert into respuesta(id_pregunta,respuesta) values (7,"Si");
+insert into respuesta(id_pregunta,respuesta) values (7,"No");
+insert into pregunta(titulo_pregunta,es_multiple) values ("¿Cuantos cigarros fumas al dia?",true);
+insert into respuesta(id_pregunta,respuesta) values (8,"Entre 0 y 5.");
+insert into respuesta(id_pregunta,respuesta) values (8,"Entre 6 y 10.");
+insert into respuesta(id_pregunta,respuesta) values (8,"Entre 10 y 20");
+insert into respuesta(id_pregunta,respuesta) values (8,"20+");
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿A que edad empezaste?",true);
+insert into respuesta(id_pregunta,respuesta) values (9,"Antes de los 15 años.");
+insert into respuesta(id_pregunta,respuesta) values (9,"Entre 16 y 25.");
+insert into respuesta(id_pregunta,respuesta) values (9,"25+.");
+insert into respuesta(id_pregunta,respuesta) values (9,"No fumo.");
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Piensas dejarlo este año?",false);
+insert into respuesta(id_pregunta,respuesta) values (10,"Si");
+insert into respuesta(id_pregunta,respuesta) values (10,"No");
 
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Prefieres GIMP o Photoshop?",true);
+insert into respuesta(id_pregunta,respuesta) values (11,"GIMP.");
+insert into respuesta(id_pregunta,respuesta) values (11,"Photoshop.");
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Utilizas paint?",false);
+insert into respuesta(id_pregunta,respuesta) values (12,"Si");
+insert into respuesta(id_pregunta,respuesta) values (12,"No");
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Usas Photoshop para crear animaciones?",false);
+insert into respuesta(id_pregunta,respuesta) values (13,"Si");
+insert into respuesta(id_pregunta,respuesta) values (13,"No");
 insert into pregunta(titulo_pregunta,es_multiple) values ("¿Eres usuario de boostrap?",false);
+insert into respuesta(id_pregunta,respuesta) values (14,"Si");
+insert into respuesta(id_pregunta,respuesta) values (14,"No");
 
 
