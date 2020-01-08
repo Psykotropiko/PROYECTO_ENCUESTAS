@@ -54,6 +54,7 @@ create table resultados(
 id_log int,
 id_pregunta int,
 id_respuesta int,
+PRIMARY KEY (id_log, id_pregunta), 
 FOREIGN KEY (id_log) references logs(id),
 FOREIGN KEY (id_pregunta) references pregunta(id),
 FOREIGN KEY (id_respuesta) references respuesta(id)
