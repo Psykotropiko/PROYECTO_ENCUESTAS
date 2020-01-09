@@ -65,6 +65,7 @@ insert into usuarios(correo,password,status) values ("manuel@dev.es",1234,2);
 insert into usuarios(correo,password,status) values ("javi@dev.es",1234,2);
 insert into usuarios(correo,password,status) values ("luis@dev.es",1234,2);
 insert into usuarios(correo,password,status) values ("rene@dev.es",1234,2);
+insert into usuarios(correo,password,status) values ("pruebas@survey.es",1234,1);
 
 insert into encuesta(id_admin,nombre,descripcion) values (1,"informatica","Realiza una encuesta sobre los distintos campos de éste tema.");
 insert into encuesta(id_admin,nombre,descripcion) values (2,"balonmano","Realiza una encuesta a cerca de éste deporte popular.");
