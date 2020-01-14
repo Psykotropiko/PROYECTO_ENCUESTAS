@@ -164,3 +164,5 @@ insert into respuesta(id_pregunta,respuesta) values (14,"No");
 insert into r_encuesta_pregunta values(4,14);
 
 
+insert into logs values(1,1,1,'2020/01/14');
+insert into logs values(2,1,1,'2020/01/14');
