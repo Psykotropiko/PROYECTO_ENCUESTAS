@@ -51,6 +51,7 @@ ON UPDATE CASCADE ON DELETE CASCADE
 ) Engine = InnoDB;
 
 create table resultados(
+id int auto_increment PRIMARY KEY,
 id_log int,
 id_pregunta int,
 id_respuesta int,
