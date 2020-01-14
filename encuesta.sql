@@ -51,7 +51,6 @@ ON UPDATE CASCADE ON DELETE CASCADE
 ) Engine = InnoDB;
 
 create table resultados(
-id int auto_increment PRIMARY KEY,
 id_log int,
 id_pregunta int,
 id_respuesta int,
@@ -162,17 +161,4 @@ insert into respuesta(id_pregunta,respuesta) values (14,"Si");
 insert into respuesta(id_pregunta,respuesta) values (14,"No");
 
 insert into r_encuesta_pregunta values(4,14);
-
-
-insert into logs values(1,1,1,'2020/01/14');
-insert into logs values(2,1,1,'2020/01/14');
-
-insert into resultados values(1,1,1);
-insert into resultados values(1,2,4);
-insert into resultados values(1,3,6);
-
-insert into resultados values(2,1,2);
-insert into resultados values(2,2,5);
-insert into resultados values(2,3,7);
-
 
