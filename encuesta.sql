@@ -6,7 +6,7 @@ create table usuarios(
 id int PRIMARY KEY auto_increment not null,
 correo varchar(75),
 password varchar(50),
-status char(10) default 1 not null
+status char(10)
 ) Engine = InnoDB;
 
 create table encuesta(
