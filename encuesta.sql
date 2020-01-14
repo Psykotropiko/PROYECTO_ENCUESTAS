@@ -168,11 +168,11 @@ insert into logs values(1,1,1,'2020/01/14');
 insert into logs values(2,1,1,'2020/01/14');
 
 insert into resultados values(1,1,1);
-insert into resultados values(1,2,1);
-insert into resultados values(1,3,1);
+insert into resultados values(1,2,4);
+insert into resultados values(1,3,6);
 
 insert into resultados values(2,1,2);
-insert into resultados values(2,2,2);
-insert into resultados values(2,3,2);
+insert into resultados values(2,2,5);
+insert into resultados values(2,3,7);
 
 
