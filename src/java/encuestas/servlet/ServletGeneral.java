@@ -37,6 +37,7 @@ public class ServletGeneral extends HttpServlet {
         } else{    
             HttpSession sesion = request.getSession();
             sesion.setAttribute("usuario", this.usuariosFacade.find(user.getId()));
+            sesion.setAttribute("id_usu", user.getId());
             if(user.getStatus().equals("1")){   
             response.sendRedirect("ServletListarEncuesta");
             }else{

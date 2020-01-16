@@ -15,9 +15,11 @@
     <%
         List<Encuesta> lista = (List)request.getAttribute("listado");
         String str = request.getParameter("id");
+        Integer sesion = (Integer)session.getAttribute("id");
     %>
     <body style="text-align: center;">
         <h1 style="padding: 20px;text-align: center;background: #1abc9c;color: white;font-size: 30px;">Listado de encuestas disponibles para contestar</h1>
+        <a href="ServletCierreSesion">Cerrar Sesion</a>
         <input type="hidden" value="<%= str %>" />
         <br>
         <ul>
