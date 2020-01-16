@@ -44,7 +44,6 @@ create table logs(
 id int auto_increment PRIMARY KEY,
 id_usuario int,
 id_encuesta int,
-fecha date,
 FOREIGN KEY (id_usuario) references usuarios(id),
 FOREIGN KEY (id_encuesta) references encuesta(id)
 ON UPDATE CASCADE ON DELETE CASCADE
@@ -54,6 +53,7 @@ create table resultados(
 id_log int,
 id_pregunta int,
 id_respuesta int,
+PRIMARY KEY (id_log, id_pregunta), 
 FOREIGN KEY (id_log) references logs(id),
 FOREIGN KEY (id_pregunta) references pregunta(id),
 FOREIGN KEY (id_respuesta) references respuesta(id)
@@ -162,3 +162,35 @@ insert into respuesta(id_pregunta,respuesta) values (14,"No");
 
 insert into r_encuesta_pregunta values(4,14);
 
+
+insert into logs values(1,1,1);
+insert into logs values(2,1,1);
+insert into logs values(3,1,1);
+insert into logs values(4,1,1);
+insert into logs values(5,1,1);
+insert into logs values(6,1,1);
+
+insert into resultados values(1,1,1);
+insert into resultados values(1,2,4);
+insert into resultados values(1,3,6);
+
+
+insert into resultados values(2,1,2);
+insert into resultados values(2,2,5);
+insert into resultados values(2,3,7);
+
+insert into resultados values(3,1,3);
+insert into resultados values(3,2,5);
+insert into resultados values(3,3,7);
+
+insert into resultados values(4,1,3);
+insert into resultados values(4,2,5);
+insert into resultados values(4,3,7);
+
+insert into resultados values(5,1,3);
+insert into resultados values(5,2,5);
+insert into resultados values(5,3,7);
+
+insert into resultados values(6,1,3);
+insert into resultados values(6,2,5);
+insert into resultados values(6,3,7);
