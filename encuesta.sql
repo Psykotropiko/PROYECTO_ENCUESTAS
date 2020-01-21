@@ -44,6 +44,7 @@ create table logs(
 id int auto_increment PRIMARY KEY,
 id_usuario int,
 id_encuesta int,
+fecha date not null default CURRENT_TIMESTAMP,
 FOREIGN KEY (id_usuario) references usuarios(id),
 FOREIGN KEY (id_encuesta) references encuesta(id)
 ON UPDATE CASCADE ON DELETE CASCADE
